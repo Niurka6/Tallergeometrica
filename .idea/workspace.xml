@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799c829e-19c4-4c92-aa96-98ed22666094" name="Changes" comment="Tallergeometrica">
-      <change afterPath="$PROJECT_DIR$/color.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cuadrado.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rectangulo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/figurageometrica.py" beforeDir="false" afterPath="$PROJECT_DIR$/figurageometrica.py" afterDir="false" />
-    </list>
+    <list default="true" id="799c829e-19c4-4c92-aa96-98ed22666094" name="Changes" comment="Tallergeometrica-8/05/25" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +76,7 @@
       <updated>1746624723968</updated>
       <workItem from="1746624725000" duration="4538000" />
       <workItem from="1746721994772" duration="310000" />
-      <workItem from="1746722461672" duration="647000" />
+      <workItem from="1746722461672" duration="954000" />
     </task>
     <task id="LOCAL-00001" summary="Tallergeometrica">
       <option name="closed" value="true" />
@@ -92,7 +86,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746625410637</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Tallergeometrica-8/05/25">
+      <option name="closed" value="true" />
+      <created>1746723262790</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746723262790</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Tallergeometrica-8/05/25">
+      <option name="closed" value="true" />
+      <created>1746723405905</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746723405905</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +121,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tallergeometrica" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tallergeometrica" />
+    <MESSAGE value="Tallergeometrica-8/05/25" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tallergeometrica-8/05/25" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -124,9 +135,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Moncayofigurageometrica$cuadrado.coverage" NAME="cuadrado Coverage Results" MODIFIED="1746722977291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Moncayofigurageometrica$color.coverage" NAME="color Coverage Results" MODIFIED="1746722492028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Moncayofigurageometrica$rectangulo.coverage" NAME="rectangulo Coverage Results" MODIFIED="1746722939140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Moncayofigurageometrica$cuadrado.coverage" NAME="cuadrado Coverage Results" MODIFIED="1746723232449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Moncayofigurageometrica$rectangulo.coverage" NAME="rectangulo Coverage Results" MODIFIED="1746723235987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Moncayofigurageometrica$color.coverage" NAME="color Coverage Results" MODIFIED="1746723239118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Moncayofigurageometrica$figurageometrica.coverage" NAME="figurageometrica Coverage Results" MODIFIED="1746722744200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
