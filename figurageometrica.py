@@ -14,10 +14,10 @@ class Cuadrado(Rectangulo):
         super().__init__(lado, lado)
 
 # Ejemplo de uso
-rectangulo = Rectangulo(2, 6)
+rectangulo = Rectangulo(9, 2)
 print("Área del rectángulo:", rectangulo.area())
 print("Perímetro del rectángulo:", rectangulo.perimetro())
 
-cuadrado = Cuadrado(8)
+cuadrado = Cuadrado(10)
 print("Área del cuadrado:", cuadrado.area())
 print("Perímetro del cuadrado:", cuadrado.perimetro())
