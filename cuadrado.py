@@ -1,16 +1,16 @@
-from rectangulo import FiguraGeometrica
-class Cuadrado(FiguraGeometrica):
-    def __init__(self, lado):
-        self.lado = lado
+from color import Color
+from FiguraGeometrica import FiguraGeometrica
 
-    def area(self):
-        return self.lado ** 2
+class cuadrado(FiguraGeometrica, Color):
+    def __init__(self, lado=0, color=None):
+        FiguraGeometrica.__init__(self, lado, lado)
+        Color.__init__(self, color)
 
-    def perimetro(self):
-        return 4 * self.lado
+    def __str__(self):
+        return f"Cuadrado -> {self.__dict__.__str__()}"
 
-
-# Ejemplo de uso
-cuadrado = Cuadrado(4)
-print("Área del cuadrado:", cuadrado.area())
-print("Perímetro del cuadrado:", cuadrado.perimetro())
+if __name__ == "__main__":
+    c1 = cuadrado(lado=6, color="Rojo")
+    print(c1)
+    print(f"Área: {c1.area()}")
+    print (f"Perimetro: {c1.perimetro()}")

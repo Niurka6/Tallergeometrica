@@ -1,19 +1,17 @@
-class FiguraGeometrica:
-    pass  # No hace nada por ahora, solo para herencia
+from FiguraGeometrica import FiguraGeometrica
+from color import Color
 
-class Rectangulo(FiguraGeometrica):
-    def __init__(self, ancho, alto):
-        self.ancho = ancho
-        self.alto = alto
+class rectangulo(FiguraGeometrica, Color):
+    def __init__(self, alto=0, ancho=0, color=None):
+        FiguraGeometrica.__init__(self, ancho, alto)
+        Color.__init__(self, color)
 
-    def area(self):
-        return self.ancho * self.alto
+    def __str__(self):
+        return f"Rectángulo -> {self.__dict__.__str__()}"
 
-    def perimetro(self):
-        return 2 * (self.ancho + self.alto)
-
-
-# Ejemplo de uso
-rectangulo = Rectangulo(8, 5)
-print("Área del rectángulo:", rectangulo.area())
-print("Perímetro del rectángulo:", rectangulo.perimetro())
+if __name__ == "__main__":
+    r1 = rectangulo(alto=5, ancho=3, color="Rojo")
+    print(r1)
+    print(f"Área: {r1.area()}")
+    print (f"Perim   "
+           f"etro: {r1.perimetro()}")
